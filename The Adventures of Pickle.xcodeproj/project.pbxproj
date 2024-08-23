@@ -14,6 +14,8 @@
 		0F2BCBF02C74B734008773ED /* The_Adventures_of_PickleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BCBEF2C74B734008773ED /* The_Adventures_of_PickleTests.swift */; };
 		0F2BCBFA2C74B734008773ED /* The_Adventures_of_PickleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BCBF92C74B734008773ED /* The_Adventures_of_PickleUITests.swift */; };
 		0F2BCBFC2C74B734008773ED /* The_Adventures_of_PickleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BCBFB2C74B734008773ED /* The_Adventures_of_PickleUITestsLaunchTests.swift */; };
+		0F50A2B92C78AD0F0050BF2A /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F50A2B82C78AD0F0050BF2A /* Locations.swift */; };
+		0F50A2BB2C78AE6F0050BF2A /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F50A2BA2C78AE6F0050BF2A /* GameLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		0F2BCBF52C74B734008773ED /* The Adventures of PickleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Adventures of PickleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2BCBF92C74B734008773ED /* The_Adventures_of_PickleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Adventures_of_PickleUITests.swift; sourceTree = "<group>"; };
 		0F2BCBFB2C74B734008773ED /* The_Adventures_of_PickleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Adventures_of_PickleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F50A2B82C78AD0F0050BF2A /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		0F50A2BA2C78AE6F0050BF2A /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				0F2BCBDD2C74B733008773ED /* The_Adventures_of_PickleApp.swift */,
 				0F2BCBDF2C74B733008773ED /* ContentView.swift */,
+				0F50A2B82C78AD0F0050BF2A /* Locations.swift */,
+				0F50A2BA2C78AE6F0050BF2A /* GameLogic.swift */,
 				0F2BCBE12C74B734008773ED /* Assets.xcassets */,
 				0F2BCBE62C74B734008773ED /* The_Adventures_of_Pickle.entitlements */,
 				0F2BCBE32C74B734008773ED /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F50A2B92C78AD0F0050BF2A /* Locations.swift in Sources */,
 				0F2BCBE02C74B733008773ED /* ContentView.swift in Sources */,
+				0F50A2BB2C78AE6F0050BF2A /* GameLogic.swift in Sources */,
 				0F2BCBDE2C74B733008773ED /* The_Adventures_of_PickleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
